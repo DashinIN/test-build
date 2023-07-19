@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/test-build/static/css/main.74729276.css",
+    "main.js": "/test-build/static/js/main.6bf0c9c7.js",
+    "static/media/noise.png": "/test-build/static/media/noise.2398a9a860983bdb8ef8.png",
+    "static/media/red ball.png": "/test-build/static/media/red ball.5ba31d00cd54c6225ab4.png",
+    "static/media/purple ball.png": "/test-build/static/media/purple ball.7e866af7573afa0ee40c.png",
+    "static/media/logo_welbex.svg": "/test-build/static/media/logo_welbex.2e08d1bd108cb8b2aee116b1817d851e.svg",
+    "static/media/whatsapp.svg": "/test-build/static/media/whatsapp.5f4e1186210287546a95fab6d3374a71.svg",
+    "static/media/viber.svg": "/test-build/static/media/viber.8f378f6ea73fcdff47b7f10fb9a8057a.svg",
+    "static/media/telegram.svg": "/test-build/static/media/telegram.7c6cd846841cd7aac17701958e2b4545.svg",
+    "index.html": "/test-build/index.html",
+    "main.74729276.css.map": "/test-build/static/css/main.74729276.css.map",
+    "main.6bf0c9c7.js.map": "/test-build/static/js/main.6bf0c9c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74729276.css",
+    "static/js/main.6bf0c9c7.js"
+  ]
+}
