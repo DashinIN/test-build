@@ -1,0 +1,110 @@
+
+.gifts {
+    margin-top: 30px;
+    margin-inline: 15px;
+   padding-bottom: 60px;
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: var(--gray-color);
+    display: table;
+
+    &>span {
+        font-weight: bold;
+        background: linear-gradient(90deg, #FCB045 77%, #ec6d18);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+
+    }
+
+}
+
+.items {
+    color: var(--gray-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.item__short {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    display: table;
+    margin-top: 15px;
+
+
+    &>span {
+        font-weight: bold;
+        background: linear-gradient(90deg, #FCB045 33%, #FF3F78);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.item {
+    display: none;
+}
+
+.button {
+    display: none;
+}
+
+@media (min-width: 800px) {
+
+    .gifts {
+        width: 30%;
+    }
+
+    .title  {
+            &>span { 
+            text-transform: uppercase;
+        }
+        text-align: right;
+    }   
+
+    .item__short {
+        display: none;
+    }
+
+    .item {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .items {
+        margin-top: 40px;
+    }
+
+    .item__title {
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        color: var(--gray-color);
+        text-transform: uppercase;
+        text-align: right;
+    }
+
+    .item__info {
+        margin-top: 6px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        text-align: right;
+    }
+
+    .button {
+        display: block;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        padding: 21px 35px;
+        color: var(--gray-color);
+        background-color: #4077F3;
+        margin-top: 60px;
+        margin-left:auto;
+    }
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&family=Montserrat:wght@200;400&display=swap');
+
+@import "./global.scss";
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+    background-color: var(--main-background);
+}
+
+a  {
+    text-decoration: none;
+}
+
+
+.App {
+    margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+    .App {
+        max-width: 1140px;
+    }
+}
+
